@@ -35,6 +35,6 @@ ignored.
 
 I have uploaded the python script needed to toggle the touchpad on and off as `script.py`, so for the most part all you
 need to do is download it and set that as the command. You will however likely have to change the device number. On my laptop,
-the device is number 11. To find out what is is, go into the command line and type `xinput` and find the id for the touchpad.
+the device is number 11. To find out what it is, go into the command line and type `xinput` and find the id for the touchpad.
 It's that simple. Once you have it, edit `script.py` and change `DEVICE_NUM = '11'` to the proper id number. Make sure to keep the quotes.
 Once you have done this simply add the command (something like `~/script.py`) and key combo and you are good to go!
